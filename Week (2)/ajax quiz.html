@@ -12,6 +12,8 @@
         div.question-box {
             margin: 10px 0 20px 0;
         }
+        .high-mise
+
     </style>
 
     <script>
@@ -30,6 +32,14 @@
           let gu_mise = mise["IDEX_MVL"];
           //console.log(gu_name, gu_mise);
           $('#names-q1').append(`<li>${gu_name} : ${gu_mise}</li>`);
+
+          if (80 <= gu_mise) {
+
+          }
+          else {
+
+          }
+          $('#names-q1').append (`<li>${gu_name} : ${gu_mise}</li>`);
          }
   },
 });
